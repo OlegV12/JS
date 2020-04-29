@@ -1,3 +1,4 @@
+'use strict';
 window.addEventListener('load', function() {
     const game = new Game();
     const board = new Board();

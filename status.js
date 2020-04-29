@@ -1,3 +1,4 @@
+'use strict';
 class Status {
     
     constructor() {
@@ -10,7 +11,7 @@ class Status {
         this.phase = 'X';
     }
 
-    /**
+     /**
      * Проверка что мы "играем", что игра не закончена.
      * @returns {boolean} Вернет true, статус игры "играем", иначе false.
      */
@@ -26,7 +27,6 @@ class Status {
     setStatusStopped() {
         this.status = 'stopped';
     }
-
 
 
     /**
